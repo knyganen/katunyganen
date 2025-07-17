@@ -1,0 +1,82 @@
+.map {
+  height: 300px;
+  width: 100%;
+  filter: brightness(40%), grayscale(80%);
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: block;
+}
+
+.map:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+.projects-button {
+  padding: 25px 45px;
+  border: 2px solid white;
+  border-radius: 50px;
+  /* background: linear-gradient(264deg, rgb(148, 239, 239) -5.09%, rgb(237, 159, 237) 106.28%); */
+  cursor: pointer;
+}
+
+.projects-button:hover {
+  background: linear-gradient(90deg, #22d3ee, #c084fc);
+  box-shadow: 0 10px 20px rgba(168, 85, 247, 0.4);
+  transform: translateY(-4px);
+}
+
+.contact-button {
+  padding: 25px 45px;
+  border-radius: 50px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background: linear-gradient(90deg, #22d3ee, #c084fc);
+  box-shadow: 0 10px 20px rgba(168, 85, 247, 0.4);
+  transform: translateY(-4px);
+}
+
+.submit-button {
+  padding: 25px 250px;
+  border-radius: 50px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: linear-gradient(90deg, #22d3ee, #c084fc);
+  box-shadow: 0 10px 20px rgba(168, 85, 247, 0.4);
+  transform: translateY(-4px);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+
+.profile img {
+  height: 250px;
+  width: 250px;
+  margin-top: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 6px solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(270deg, hsl(179, 63%, 45%), #a855f7); 
+  background-clip: border-box;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  
+}

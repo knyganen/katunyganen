@@ -1,5 +1,5 @@
 {
-  "name": "nommiku",
+  "name": "katunyganen",
   "homepage": "https://knyganen.github.io/nommiku",
   "private": true,
   "version": "0.0.0",
@@ -11,15 +11,17 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "bootstrap": "^5.3.7",
     "emailjs-com": "^3.2.0",
     "firebase": "^11.10.0",
+    "leaflet": "^1.9.4",
     "react": "^19.1.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0",
     "react-toastify": "^11.0.5",
     "router-dom": "^3.0.3",
     "tailwindcss": "^4.1.11"

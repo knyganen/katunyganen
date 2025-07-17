@@ -8,7 +8,7 @@ import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
-
+import { MapContainer } from "react-leaflet";
 
 function App() {
   const [isLoaded, setIsloaded] = useState(false);
@@ -28,6 +28,7 @@ function App() {
         <About />
         <Projects />
         <Contact />
+       
       </div>
     </>
   );
